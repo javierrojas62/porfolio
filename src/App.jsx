@@ -3,6 +3,7 @@ import Footer from './components/Footer'
 import Presentacion from './components/Presentacion'
 import SobreMi from './components/SobreMi'
 import Proyectos from './components/Proyectos'
+import Tecnologias from './components/Tecnologias'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <main className="container">
         <Presentacion />
         <SobreMi />
+        <Tecnologias />
         <Proyectos />
 
         <section id="contacto" className="py-5">
