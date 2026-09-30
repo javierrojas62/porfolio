@@ -1,16 +1,45 @@
-# React + Vite
+# Mi Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio personal hecho en React como trabajo práctico para la facultad.
 
-Currently, two official plugins are available:
+Soy Javier Rojas, estudiante de la Tecnicatura en Programación Web en la Universidad Nacional de San Juan. En este portfolio muestro quién soy, las tecnologías que uso y algunos de mis proyectos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Secciones
 
-## React Compiler
+- Presentación
+- Sobre mí
+- Tecnologías
+- Proyectos
+- Contacto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tecnologías usadas
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- Bootstrap 5
+- CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Qué apliqué de React
+
+- Componentes separados para cada sección
+- Props para pasar los datos de cada proyecto a su card
+- `.map()` para generar las cards de proyectos y los íconos de tecnologías a partir de arrays
+- Renderizado condicional para mostrar el botón de demo solo cuando el proyecto tiene una
+- Estructura semántica con `header`, `nav`, `main`, `section`, `article` y `footer`
+
+``` Estructura
+
+src/
+├── assets/          # foto
+├── components/      # Header, Presentacion, SobreMi, Tecnologias, Proyectos, ProyectoCard, Contacto, Footer
+├── data/            # proyectos.js y tecnologias.js
+├── estilos.css
+├── App.jsx
+└── main.jsx
+
+```
+## Autor
+
+Javier Rojas
+- GitHub: [javierrojas62](https://github.com/javierrojas62)
+- LinkedIn: [javierrojas62](https://www.linkedin.com/in/javierrojas62/)
