@@ -4,6 +4,7 @@ import Presentacion from './components/Presentacion'
 import SobreMi from './components/SobreMi'
 import Proyectos from './components/Proyectos'
 import Tecnologias from './components/Tecnologias'
+import Contacto from './components/Contacto'
 
 function App() {
   return (
@@ -14,10 +15,7 @@ function App() {
         <SobreMi />
         <Tecnologias />
         <Proyectos />
-
-        <section id="contacto" className="py-5">
-          <h2>Contacto</h2>
-        </section>
+        <Contacto />
       </main>
       <Footer />
     </>
